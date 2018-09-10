@@ -1,0 +1,22 @@
+{
+  "name": "electron-react-starter",
+  "version": "1.0.0",
+  "description": "Electron-React Application Starter Pack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \" npm run client\""
+  },
+  "author": "Nigel Jaure <jaurenigel@gmail.com> (https://creativelab.co.zw)",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
