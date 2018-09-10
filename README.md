@@ -32,6 +32,8 @@
 
 ## Starter Info
 
+### Author
+
     Nigel Jaure
 
 ### Version
