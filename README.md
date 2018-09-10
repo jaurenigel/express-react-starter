@@ -26,7 +26,7 @@
     #install express-server dependencies
     npm run client
 
-    #express-server runs on http://localhost:2018 and client on http://localhost:3000
+    #express-server runs on http://localhost:5000 and client on http://localhost:3000
 
 ```
 
